@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+.image-section, .product-info {
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+img {
+    border-radius: 500px;
+}
+
+.image-section img {
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.image-section img:hover {
+    transform: scale(1.1);
+}
+
+
+.price {
+    color: green;
+    font-size: 20px;
+}
+
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+form, .reviews {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.varity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.varity img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 500px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.varity img:hover {
+    transform: scale(1.08);
+    border: 4px solid orange;
+}
+
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnails img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 500px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.08);
+    border: 4px solid orange;
+}
+
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: flex-start;
+}
+
+
+.selector {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
